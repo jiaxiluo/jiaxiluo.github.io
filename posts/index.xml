@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - Luojxii</title>
+        <link>http://jiaxiluo.github.io/posts/</link>
+        <description>All Posts | Luojxii</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>kevin559@163.com (jiaxi.luo)</managingEditor>
+            <webMaster>kevin559@163.com (jiaxi.luo)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://jiaxiluo.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title></title>
+    <link>http://jiaxiluo.github.io/posts/python%E5%9F%BA%E7%A1%80/python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>jiaxi.luo</author>
+    <guid>http://jiaxiluo.github.io/posts/python%E5%9F%BA%E7%A1%80/python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</guid>
+    <description><![CDATA[+++ title = &lsquo;Python文件操作&rsquo; date = 2023-10-05T19:36:46+08:00 draft = true +++
+普通文件 1.打开文件，得到文件句柄并赋值给一个变量
+2.通过句柄对文件进行操作
+3.关闭文件 eg. 昨夜寒蛩不住鸣。 惊回千里梦，已三更。 起来独自绕阶行。 人悄悄，帘外月胧明。 白首为功名，旧山松竹老，阻归程。 欲将心事付瑶琴。 知音少，弦断有谁听。
+f = open(&lsquo;小重山&rsquo;) #打开文件 data=f.read()#获取文件内容 f.close() #关闭文件 ，如果没有关闭，那在写文件的话，只到缓存，没有到硬盘。
+​注意 if in the win，hello文件是utf8保存的，打开文件时open函数是通过操作系统打开的文件，而win操作系统默认的是gbk编码，所以直接打开会乱码，需要f=open(&lsquo;hello&rsquo;,encoding=&lsquo;utf8&rsquo;)，hello文件如果是gbk保存的，则直接打开即可。]]></description>
+</item>
+</channel>
+</rss>
